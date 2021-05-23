@@ -12,7 +12,7 @@ export const GifGrid = ({category}) => {
 
 
     return (
-        <div>
+        <>
             <h3>{category}</h3>
 
            { loading && <p>Loading</p> }
@@ -29,7 +29,7 @@ export const GifGrid = ({category}) => {
                     }
                 
             </div>
-        </div>
+        </>
     )
 }
 
