@@ -27,6 +27,7 @@ export const AddCategory = ({setCategories}) => {
         <form onSubmit={handleSubmit}>
             <p>{inputValue}</p>
             <input
+                className="mT-10"
                 type="text"
                 value={inputValue}
                 onChange={handleInputChange}
